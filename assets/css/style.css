@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+/* !!!!!!!!!! reset !!!!!!!!!! */
+/* !!!!!!!!!! reset !!!!!!!!!! */
+/* !!!!!!!!!! reset !!!!!!!!!! */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato-Regular", sans-serif;
+  box-sizing: border-box;
+}
+img,
+input {
+  width: 100%;
+}
+
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+body {
+  --docwidth: 90%;
+}
+header {
+  background-image: url(../img/la.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 0;
+  height: 20vh;
+}
+header #menu {
+  display: flex;
+  justify-content: space-between;
+  width: var(--docwidth);
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: auto;
+}
+
+#burger {
+  width: auto;
+}
+/* !!!!!!!!!! Main !!!!!!!!!! */
+/* !!!!!!!!!! Main !!!!!!!!!! */
+/* !!!!!!!!!! Main !!!!!!!!!! */
+#section1 {
+  width: var(--docwidth);
+  margin: auto;
+}
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+#section1_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section1 #section1_main {
+  width: 50%;
+  margin: auto;
+}
+#section2 {
+  background-color: black;
+}
+#section2 #section2_main {
+  width: var(--docwidth);
+  margin: auto;
+}
+#section2_title {
+  color: white;
+  text-align: center;
+}
+#section2_main #section2_date {
+  background-color: white;
+}
+#section2 #section2_cards {
+  background-color: white;
+}
+#section2_cards.cards_text {
+  width: var(--docwidth);
+  margin: auto;
+}
+/* !!!!!!!!!! Contact !!!!!!!!!! */
+/* !!!!!!!!!! Contact !!!!!!!!!! */
+/* !!!!!!!!!! Contact !!!!!!!!!! */
+#contact_text {
+  text-align: center;
+}
+#contact_divers_form #form {
+  width: var(--docwidth);
+  margin: auto;
+  padding: 0.5rem;
+}
+
+/* ++++++++++++++++++++++++++++ BP576P +++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++ BP576P +++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++ BP576P +++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++ BP576P +++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++ BP576P +++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++ BP576P +++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 576px) {
+  #contact_divers {
+    width: 100%;
+  }
+  #contact_divers_form {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+}
